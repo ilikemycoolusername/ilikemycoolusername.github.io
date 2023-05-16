@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Cacti</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h1>Cacti</h1>
+
+                </div>
+                <div class="col">
+
+                    <button id="lighting">Toggle Light Mode</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <img class="img-fluid mx-auto d-block modelImage" src="media/Cactus1.png" alt="Cactus1">
+                    <img class="img-fluid mx-auto d-block modelImage" src="media/Cactus2.png" alt="Cactus2">
+                    <img class="img-fluid mx-auto d-block modelImage" src="media/Cactus3.png" alt="Cactus3">
+                    <img class="img-fluid mx-auto d-block modelImage" src="media/Cactus4.png" alt="Cactus4">
+
+                </div>
+                <div class="col">
+                    <h3>About:</h3>
+                    <p class="otherParagraph">In order to create a cactus, start by removing the default Cube mesh. Now add a Cylinder mesh.
+                        Decrease the number of vertices to a small odd number. Now, change into edit mode by pressing tab. Scroll around your
+                        cube and press option to snap to an orthographic view. Press option again before clicking on the top of the cylinder.
+                        This will select the ring of vertices around the top of the cylinder. Extrude several times by pressing E. You can change
+                        the size of sections of the cactus by using S to scale after you have extruded a new face. Now select certain sections of
+                        the cactus by again pressing option then clicking. Use G to move each section so that the cactus is not perfectly
+                        straight. You may want to create a curved shape. To add branches to the cactus, repeat the above process with a new mesh.
+                        Alternatively you could duplicate the current mesh by pressing shift + D, but this is unlikely to yield the best
+                        resulting model. Finally, to add spikes, insert a Cone mesh. Decrease the number of vertices to a small odd number. Scale
+                        the size of the Cone to your liking by using S. If you press X after pressing S, then you can scale exclusively along the
+                        x-axis (the same is true with y and z). Put several of the cones around your cactus for a spiky look.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <ul class="nav navigate">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="page1.html">Trees and Bushes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="page2.html">Rocks and Grass</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Cacti</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
