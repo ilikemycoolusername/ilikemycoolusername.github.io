@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>My Homepage</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+    <body
+    >
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h1>My Homepage</h1>
+
+                </div>
+                <div class="col">
+
+                    <button id="lighting">Toggle Light Mode</button>
+
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-8">
+
+                <!-- Bootstrap Carousel -->
+                <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="media/Carousel1.jpg" class="d-block w-100" alt="Carousel1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="media/Carousel2.jpeg" class="d-block w-100" alt="Carousel2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="media/Carousel3.jpg" class="d-block w-100" alt="Carousel3">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <!-- Paragraph containing overarching information -->
+                <p id="infoParagraph">This webpage showcases a variety of three-dimensional models which I created using an open-source
+                  software called "Blender." The majority of these models were created during July and August of 2022. I followed
+                  several different YouTube tutorials to acquire knowledge on how to create the models. All of the models are "low poly"
+                  (referring to low polygon), which means that they have limited detail. While I intended to implement these models into
+                  a game that I wanted to create at the time, the game currently remains unfinished.
+                </p>
+              </div>
+
+            </div>
+            <div class="row">
+
+              <div class="col">
+                <b id="explanation">In the slideshow above, you can view a few scenes containing my 3D models. Click on the links below
+                  to see more 3D models.
+                </b>
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col">
+                <ul class="nav navigate">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/page1.html">Trees and Bushes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/page2.html">Rocks and Grass</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/page3.html">Cacti</a>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
