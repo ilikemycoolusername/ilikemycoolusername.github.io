@@ -1,0 +1,70 @@
+/* Make background-color gray and all text white */
+body {
+    background-color: #555555;
+    color: #F5F5F5;
+}
+
+/* Underline page header and set its position */
+h1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    text-decoration-line: underline;
+}
+
+/* Float the toggle lighting button to the right and make its background-color blue */
+#lighting {
+    float: right;
+    background-color: #8DD7EB;
+}
+
+/* Set the position of the infoParagraph */
+#infoParagraph {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+/* Make font-size of all paragraph elements 18px  */
+p {
+    font-size: 18px;
+}
+
+/* Set the position of the directions */
+#directions {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+/* Set the position of lists containing the links */
+.navigate {
+    float: right;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+/* Set the position of links in relation to one another and change color of links to light blue */
+.nav-link {
+    margin-left: 20px;
+    font-size: 30px;
+    color: #19E2F8;
+}
+
+/* Set the position of all 3D model images */
+.modelImage {
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+/* Set the position of all otherParagraph elements */
+.otherParagraph {
+    margin-top: 40px;
+}
+
+/* Set the position of all h3 elements */
+h3 {
+    margin-top: 20px;
+}
